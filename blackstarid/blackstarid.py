@@ -253,9 +253,11 @@ class BlackstarIDAmp(object):
     vendor = 0x27d4
 
     amp_models = {
-        0x0001: 'id-tvp',
-        0x0010: 'id-core',
-    }
+    0x0001: 'id-tvp',
+    0x0010: 'id-core',
+    0x0011: 'id-coreV2',
+    0x0020: 'id-beam'
+}
 
     controls = {
         'voice': 0x01,
